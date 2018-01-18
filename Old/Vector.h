@@ -14,7 +14,7 @@ public:
     Vector(int size, int minVal, int maxVal);
     void fillVector(int maxVal, int minVax = 0);
     int m_Size; //Cтроки
-    double* m_Vector;
+    int* m_Vector;
 
 
     friend ostream& operator<<(ostream& fout, const Vector& vector)

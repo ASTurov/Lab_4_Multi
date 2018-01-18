@@ -8,7 +8,7 @@ Vector::Vector()
 Vector::Vector(int size)
 {
     m_Size = size;
-    m_Vector = new double [m_Size];
+    m_Vector = new int [m_Size];
     for (int i = 0; i < m_Size; i++)
     {
         m_Vector[i] = 0;

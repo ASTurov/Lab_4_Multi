@@ -28,7 +28,7 @@ private:
 
 public:
     QuickSort();
-    vector<int> sort(vector <int>& mainArray);
+    vector<int> sort(vector<int> &mainArray);
 };
 
 
